@@ -8,4 +8,4 @@
 chown -R abc:abc \
 	/opt/noxbit
 chown abc:abc \
-	/cache
+	/tmp/vcache
