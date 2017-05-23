@@ -10,7 +10,7 @@ LABEL build_version="noxbit version:- ${VERSION} build-date:- ${BUILD_DATE}"
 RUN \
  apk add --no-cache \
 	curl \
-	tar \
+	tar && \
  mkdir -p \
 	/opt/noxbit && \
 
