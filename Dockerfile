@@ -27,7 +27,7 @@ RUN \
 	/tmp/*
 
 # add local files
-COPY config/ /opt/noxbit
+COPY root/ /
 
 # ports and volumes
 EXPOSE 6689
