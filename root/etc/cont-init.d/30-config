@@ -1,0 +1,11 @@
+#!/usr/bin/with-contenv bash
+
+# copy config
+[[ ! -e /config/noxbit.cfg ]] && \
+	cp /defaults/noxbit.cfg /config/noxbit.cfg
+
+# permissions
+chown -R abc:abc \
+	/config
+chown abc:abc \
+	/cache
