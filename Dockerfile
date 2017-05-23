@@ -31,4 +31,4 @@ COPY root/ /
 
 # ports and volumes
 EXPOSE 6689
-VOLUME /config /cache
+VOLUME /config
