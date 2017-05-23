@@ -7,5 +7,3 @@
 # permissions
 chown -R abc:abc \
 	/opt/noxbit
-chown abc:abc \
-	/tmp/vcache
