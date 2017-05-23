@@ -6,6 +6,6 @@
 
 # permissions
 chown -R abc:abc \
-	/config
+	/opt/noxbit
 chown abc:abc \
 	/cache
