@@ -1,4 +1,4 @@
-# nox
+# docker noxbit
 
 git clone https://github.com/lodgnewt/docker-noxbit.git
 
