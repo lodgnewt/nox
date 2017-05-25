@@ -21,7 +21,10 @@ $ git clone https://github.com/lodgnewt/docker-noxbit.git
 $ cd docker-noxbit/
 $ docker build -t lodgnewt/docker-noxbit .
 $ id <dockeruser>
-$ docker run -d -e PGID=1000 -e PUID=1000 -p 6689:6689 -v /home/noname/noxbit/config/:/config lodgnewt/docker-noxbit
+$ docker run -d -e PUID=<uid> -e PGID=<gid> -p 6689:6689 \
+-v ../noxbit/config/:/config \
+-v ../noxbit/vcache/:/tmp/vcache \
+lodgnewt/docker-noxbit
 ```
 ## info
 
