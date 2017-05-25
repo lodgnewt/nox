@@ -1,10 +1,5 @@
 FROM lsiobase/alpine:3.5
-MAINTAINER noname			
-
-# set version label
-ARG BUILD_DATE
-ARG VERSION
-LABEL build_version="noxbit version:- ${VERSION} build-date:- ${BUILD_DATE}"
+MAINTAINER lodgnewt			
 
 # install packages and symlink libs
 RUN \
